@@ -1,0 +1,17 @@
+{
+  "name": "redirect.risd.systems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ecstatic ./public --port 8080",
+    "deploy": "rm-wh push-static redirect.risd.systems --staticFolder=public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ecstatic": "^3.3.0",
+    "rm-webhook": "^1.1.9"
+  }
+}
