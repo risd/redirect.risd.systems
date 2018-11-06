@@ -9,7 +9,7 @@
         if ( ! params ) return;
         var toParam = params.get( 'to' );
         if ( ! toParam ) return;
-        window.location = toParam;  
+        window.location = decodeURIComponent( toParam );
       } () )
     </script>
   </body>
