@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ecstatic": "^3.3.0",
+    "ecstatic": "^3.3.2",
     "rm-webhook": "^1.1.9"
   }
 }
